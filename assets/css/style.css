@@ -908,6 +908,9 @@ h3.ss_h3_center:before {
     opacity: 0;
     visibility: hidden;
 }
+#notification{
+    display: none;
+  }
 
 .ss_service_two:hover:before {
     left: -30%;
@@ -1081,6 +1084,9 @@ h3.ss_h3_center:before {
 .ss_product_content h2:hover {
     color: #5b86e5;
 }
+.ss_product_content h6:hover {
+    color: #5b86e5;
+}
 
 .ss_product_content p {
     white-space: nowrap;
@@ -1093,6 +1099,17 @@ h3.ss_h3_center:before {
 }
 
 .ss_product_content h2:before {
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 7px;
+    background: #36d1dc;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 4px;
+    border-radius: 50%;
+}
+.ss_product_content h6:before {
     position: absolute;
     content: '';
     width: 7px;

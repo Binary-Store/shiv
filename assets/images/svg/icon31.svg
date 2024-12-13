@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Light pole -->
+  <rect x="240" y="160" width="32" height="300" fill="#3b4a56"/>
+
+  <!-- Solar panel -->
+  <rect x="180" y="100" width="160" height="40" fill="#4a90e2" stroke="#3b4a56" stroke-width="4"/>
+  <line x1="180" y1="120" x2="340" y2="120" stroke="#3b4a56" stroke-width="2"/>
+  <line x1="180" y1="110" x2="340" y2="110" stroke="#3b4a56" stroke-width="2"/>
+  <line x1="180" y1="130" x2="340" y2="130" stroke="#3b4a56" stroke-width="2"/>
+
+  <!-- Lamp structure -->
+  <circle cx="256" cy="150" r="25" fill="#fdd835"/>
+  <rect x="230" y="180" width="60" height="20" fill="#4a90e2" stroke="#3b4a56" stroke-width="2"/>
+  <path d="M256 200v20" stroke="#4a90e2" stroke-width="6"/>
+
+  <!-- Light emission -->
+  <path d="M256 220 l-50 50 M256 220 l50 50" stroke="#fdd835" stroke-width="4" opacity="0.6"/>
+  <path d="M256 220 l-30 70 M256 220 l30 70" stroke="#fdd835" stroke-width="4" opacity="0.3"/>
+</svg>
