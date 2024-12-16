@@ -52,7 +52,7 @@ $html = "
 ";
 
 // Call the function to send the email
-echo smtp_mailer('superwax9@gmail.com', 'New Contact Form Submission', $html);
+echo smtp_mailer('harshilvasoya1901@gmail.com', 'New Contact Form Submission', $html);
 
 function smtp_mailer($to, $subject, $msg)
 {

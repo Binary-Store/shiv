@@ -17,11 +17,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/color3.css" />
     <!--=== Favicon Link ===-->
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="./assets/images/fav-icon.png"
-    />
+    <link rel="shortcut icon" type="image/png" href="./assets/images/fav.png" />
   </head>
 
   <body>
@@ -119,8 +115,15 @@
                     </g>
                   </svg>
                   <h2>Email :</h2>
-                  <p>support@solarexample.com</p>
-                  <p>help@solarexample.com</p>
+                  <!-- <p>Topgrowthcontact@gmail.com</p> -->
+                  <p>
+                    <a
+                      href="mailto:topgrowthcontact@gmail.com"
+                      style="text-decoration: none; color: inherit"
+                    >
+                      Topgrowthcontact@gmail.com
+                    </a>
+                  </p>
                 </div>
                 <div class="ss_contact_three">
                   <svg
@@ -156,11 +159,7 @@
                     </g>
                   </svg>
                   <h2>phone :</h2>
-                  <!-- <p>+91 9067501654</p> -->
-                  <p
-                    style="color: white; cursor: pointer"
-                    onclick="window.location='tel:+919067501654';"
-                  >
+                  <p onclick="window.location='tel:+919067501654';">
                     +91 9067501654
                   </p>
 
@@ -172,7 +171,7 @@
               <div class="ss_contact_right">
                 <h3>contact form</h3>
                 <h1>Get in touch</h1>
-                <form onSubmit="sendData(event)">
+                <form id="myForm" onSubmit="sendData(event)">
                   <div class="ss_contact_form">
                     <label>Name</label>
                     <input
@@ -215,7 +214,7 @@
                       class="require"
                     ></textarea>
                   </div>
-                  <button type="button" class="ss_btn submitForm">
+                  <button type="submit" id="subBtn" class="ss_btn submitForm">
                     Submit
                   </button>
                   <div class="form-message mt-4" id="notification">
@@ -347,7 +346,11 @@
                     Rajkot, Gujarat.
                   </a>
                 </li>
-                <li>Email : solar@example.com</li>
+                <li>
+                  <a href="mailto:topgrowthcontact@gmail.com" target="_blank">
+                    Topgrowthcontact@gmail.com
+                  </a>
+                </li>
                 <li>
                   phone :
                   <a
