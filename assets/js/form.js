@@ -8,7 +8,7 @@ function sendData(event){
     var formData = {
         name: document.forms["myForm"]["name"].value,
         number: document.forms["myForm"]["number"].value,
-        Email : document.forms["myForm"]["email"].value,
+        email : document.forms["myForm"]["email"].value,
         message: document.forms["myForm"]["message"].value
     };
     console.log(formData);
